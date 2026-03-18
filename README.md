@@ -44,7 +44,7 @@
    ```bash
    git clone [https://github.com/aphi0405/airbnb-price-predictor.git](https://github.com/aphi0405/airbnb-price-predictor.git)
    cd airbnb-price-predictor
-````
+   ````
 
 2.  **Create and Activate Virtual Environment:**
 
@@ -83,7 +83,7 @@
 
 ## 👩‍💻 Developed by
 
-  * **aphi0405** (Software Developer / Data Science Enthusiast)
+  * **Aphisara Klayburee** (Software Developer / Data Science Enthusiast)
   * GitHub: [@aphi0405](https://www.google.com/search?q=https://github.com/aphi0405)
 
 -----
