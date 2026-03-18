@@ -14,9 +14,9 @@ st.set_page_config(
 # --- 2. LOAD ASSETS ---
 @st.cache_resource
 def load_assets():
-    model = joblib.load('airbnb_price_model.pkl')
-    scaler = joblib.load('data_scaler.pkl')
-    model_columns = joblib.load('model_columns.pkl')
+    model = joblib.load('models/airbnb_price_model.pkl')
+    scaler = joblib.load('models/data_scaler.pkl')
+    model_columns = joblib.load('models/model_columns.pkl')
     return model, scaler, model_columns
 
 try:
