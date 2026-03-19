@@ -25,7 +25,7 @@
 ---
 
 ## 🧠 Model Performance
-โปรเจกต์นี้ผ่านกระบวนการทำ Data Cleaning, EDA และ Hyperparameter Tuning อย่างละเอียด:
+โปรเจกต์นี้ผ่านกระบวนการทำ Data Cleaning, EDA และ Hyperparameter Tuning อย่างละเอียด
 * **Model:** LightGBM Regressor
 * **Accuracy (R-squared):** **71.24%** 🎯
 * **Pre-processing:** Log Transformation (Target Variable) และ StandardScaler (Features)
@@ -42,15 +42,15 @@
 
 ## 📂 Project Structure
 ```text
-├── app.py                # ไฟล์หลักสำหรับรัน Streamlit Web App
-├── requirements.txt      # รายการ Libraries ที่ต้องใช้
-├── README.md             # เอกสารอธิบายโปรเจกต์
-├── models/               # โฟลเดอร์เก็บไฟล์ Model และ Scaler
+├── app.py                #ไฟล์หลักสำหรับรัน Streamlit Web App
+├── requirements.txt      #รายการ Libraries ที่ต้องใช้
+├── README.md             #เอกสารอธิบายโปรเจกต์
+├── models/               #โฟลเดอร์เก็บไฟล์ Model และ Scaler
 │   ├── airbnb_price_model.pkl
 │   ├── data_scaler.pkl
 │   └── model_columns.pkl
-├── notebooks/            # โฟลเดอร์เก็บขั้นตอนการวิเคราะห์และเทรนโมเดล
-│   └── 67160383_Airbnb_project.ipynb
+├── notebooks/            #โฟลเดอร์เก็บขั้นตอนการวิเคราะห์และเทรนโมเดล
+    └── 67160383_Airbnb_project.ipynb
 ````
 
 -----
@@ -87,7 +87,7 @@
 
 ## 👩‍💻 Developed by
 
-  * **Aphisara Klayburee** (Software Developer / Data Science Enthusiast)
+  * **67160383 Aphisara Klayburee** 
   * GitHub: [@aphi0405](https://www.google.com/search?q=https://github.com/aphi0405)
 
 -----
