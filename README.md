@@ -9,6 +9,12 @@
 
 ---
 
+## 🔗 Live Demo
+สามารถทดลองใช้งานแอปพลิเคชันเวอร์ชันออนไลน์ได้ที่นี่:
+👉 **[Airbnb Price Predictor Web App](https://airbnb-price-predictor-nhqfezkakhhj2u4rssbhzm.streamlit.app/)**
+
+---
+
 ## ✨ Key Features
 * **AI Price Prediction:** คำนวณราคากลางรายคืนโดยอิงจากปัจจัยจริง เช่น ทำเล (Latitude/Longitude), ประเภทห้อง, จำนวนผู้เข้าพัก และคะแนนรีวิว
 * **Business Insights:** วิเคราะห์รายได้คาดการณ์รายเดือนเปรียบเทียบกับเป้าหมายรายได้ (Monthly Revenue Goal)
@@ -20,7 +26,7 @@
 ## 📊 Dataset Reference
 ข้อมูลที่ใช้ในการพัฒนาโปรเจกต์นี้มาจาก Kaggle:
 * **Dataset:** [Airbnb Price Prediction Dataset](https://www.kaggle.com/datasets/stevezhenghp/airbnb-price-prediction)
-* **Description:** ข้อมูลประกอบด้วยคุณลักษณะต่างๆ ของที่พัก เช่น สิ่งอำนวยความสะดวก, ประเภทที่พัก, และพิกัดภูมิศาสตร์ ในเมืองหลักของสหรัฐฯ
+* **Timeframe:** ข้อมูล Snapshot ในช่วงปี 2017 ซึ่งเป็นช่วงที่ตลาด Airbnb มีความเสถียรและเหมาะสมกับการสร้าง Model พื้นฐาน
 
 ---
 
@@ -36,22 +42,24 @@
 * **Language:** Python
 * **Data Science:** Pandas, NumPy, Scikit-learn, LightGBM
 * **Web Framework:** Streamlit
-* **Deployment Assets:** Joblib (Serialization)
+* **Deployment:** Streamlit Cloud
 
 ---
 
 ## 📂 Project Structure
 ```text
-├── app.py                #ไฟล์หลักสำหรับรัน Streamlit Web App
-├── requirements.txt      #รายการ Libraries ที่ต้องใช้
-├── README.md             #เอกสารอธิบายโปรเจกต์
-├── models/               #โฟลเดอร์เก็บไฟล์ Model และ Scaler
+├── app.py                # ไฟล์หลักสำหรับรัน Streamlit Web App
+├── requirements.txt      # รายการ Libraries ที่ต้องใช้
+├── README.md             # เอกสารอธิบายโปรเจกต์
+├── models/               # โฟลเดอร์เก็บไฟล์ Model และ Scaler
 │   ├── airbnb_price_model.pkl
 │   ├── data_scaler.pkl
 │   └── model_columns.pkl
-├── notebooks/            #โฟลเดอร์เก็บขั้นตอนการวิเคราะห์และเทรนโมเดล
-    └── 67160383_Airbnb_project.ipynb
-````
+├── notebooks/            # โฟลเดอร์เก็บขั้นตอนการวิเคราะห์และเทรนโมเดล
+│   └── 67160383_Airbnb_project.ipynb
+└── assets/               # รูปภาพประกอบแอป
+    ├── house.png
+    └── 25694.png
 
 -----
 
