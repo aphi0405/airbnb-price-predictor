@@ -50,13 +50,14 @@
 ```text
 ├── app.py                #ไฟล์หลักสำหรับรัน Streamlit Web App
 ├── requirements.txt      #รายการ Libraries ที่ต้องใช้
-├── README.md             #เอกสารอธิบายโปรเจกต์
+├── README.md           #เอกสารอธิบายโปรเจกต์
 ├── models/               #โฟลเดอร์เก็บไฟล์ Model และ Scaler
 │   ├── airbnb_price_model.pkl
 │   ├── data_scaler.pkl
 │   └── model_columns.pkl
 ├── notebooks/            #โฟลเดอร์เก็บขั้นตอนการวิเคราะห์และเทรนโมเดล
-    └── 67160383_Airbnb_project.ipynb
+│    └── 67160383_Airbnb_project.ipynb
+└── runtime.txt #เพิ่มเวอร์ชัน python
 ```
 ---
 ## 🚀 Installation & Local Setup
